@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_URL = "https://api.github.com/graphql";
-const API_TOKEN = "7a92319b25e7c7e0408af12bfe60e2764bb95652";
+const API_TOKEN = "a5193f22c0da443adcfdb8770ad8b16910587687";
 
 function getUser(user) {
   let gUser = {

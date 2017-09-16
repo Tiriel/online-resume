@@ -206,10 +206,24 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-size: 0.9em;
 }
 .git-repo h2, .git-repo p {
   margin-top: 5px;
   margin-bottom: 0;
+}
+.git-repo-desc {
+  display: block; /* Fallback for non-webkit */
+  display: -webkit-box;
+  max-width: 200px;
+  height: 3em; /* Fallback for non-webkit */
+  margin: 0 auto;
+  font-size: 1em;
+  line-height: 1em;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .git-orgas {
   display: flex;
