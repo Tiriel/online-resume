@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import { getUser } from "../../utils/api";
+import { getUser } from "../../../utils/api";
 import GitProfile from "./GitProfile";
 import Gists from "./Gists";
 import Repositories from "./Repositories";
@@ -21,7 +21,7 @@ class Github extends React.Component {
   render() {
     let data = this.state.data;
     let ready = void 0 !== data.user;
-    if (void 0 !== data.user) {
+    if (ready) {
       data = data.user;
     }
     return (

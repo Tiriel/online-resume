@@ -15,8 +15,12 @@ class ProfileInfos extends React.Component {
             <Link to="/">www.benjaminzaslavsky.fr</Link>
           </li>
           <li>
+            <i className="fa-li fa fa-file-text-o" aria-hidden="true" />{" "}
+            <Link to="/resume">Curriculum Vitae</Link>
+          </li>
+          <li>
             <i className="fa-li fa fa-github" aria-hidden="true" />{" "}
-            <Link to="/github">https://github.com/Tiriel</Link>
+            <Link to="/resume/github">https://github.com/Tiriel</Link>
           </li>
           <li>
             <i className="fa-li fa fa-location-arrow" aria-hidden="true" />{" "}

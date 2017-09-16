@@ -32,6 +32,19 @@ a:hover,
 a:visited {
   text-decoration: underline dotted;
 }
+.home {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+.article {
+  width: 50%;
+  margin: auto;
+}
+.presentation {
+  width: 75%;
+  margin: auto;
+}
 strong {
   font-weight: 400;
 }
@@ -39,6 +52,10 @@ strong {
 .banner,
 footer {
   width: 100%;
+}
+.button i {
+  font-size: 2em;
+  line-height: 1em;
 }
 .container,
 .company,
@@ -92,7 +109,8 @@ h1 {
   font-size: 2em;
 }
 .profile-nav h1,
-.banner h1 {
+.banner h1,
+.presentation h1 {
   margin-bottom: -10px;
 }
 .infos,
@@ -102,7 +120,7 @@ h1 {
 #td-spacing {
   padding-right: 30px;
 }
-.main{
+.main {
   width: 80%;
   padding: 5%;
   flex-direction: column;
@@ -114,11 +132,13 @@ h1 {
   padding-top: 20px;
   border-bottom: 2px solid deepskyblue;
 }
-.banner {
+.banner,
+.presentation {
   padding-left: 5%;
   height: 200px;
 }
-.banner h1 {
+.banner h1,
+.presentation h1 {
   font-size: 2.5em;
 }
 .company,
@@ -187,7 +207,8 @@ footer {
   justify-content: space-between;
   border-bottom: 1px dotted dimgrey;
   color: deepskyblue;
-}.git-stats p a {
+}
+.git-stats p a {
   text-decoration: none;
 }
 .git-repos {
@@ -208,7 +229,8 @@ footer {
   justify-content: space-between;
   font-size: 0.9em;
 }
-.git-repo h2, .git-repo p {
+.git-repo h2,
+.git-repo p {
   margin-top: 5px;
   margin-bottom: 0;
 }
@@ -262,7 +284,8 @@ footer {
   margin: 5px;
   padding: 10px;
 }
-.git-gist h3, .git-gist p {
+.git-gist h3,
+.git-gist p {
   margin-bottom: 0;
   margin-top: 5px;
 }
