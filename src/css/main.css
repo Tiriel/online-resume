@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Roboto:300,400,700');
+
+.react-wrapper {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  color: slategrey;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+a,
+a:hover,
+a:visited,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.profile,
+.profile-nav,
+.company-title,
+.company-desc,
+.company-loc {
+  color: deepskyblue;
+  font-weight: 300;
+}
+a,
+a:hover,
+a:visited {
+  text-decoration: underline dotted;
+}
+strong {
+  font-weight: 400;
+}
+.spacer,
+.banner,
+footer {
+  width: 100%;
+}
+.container,
+.company,
+.mission,
+.skills table {
+  margin: auto;
+}
+.profile {
+  border-right: 2px solid deepskyblue;
+  margin-bottom: -800px;
+  padding-bottom: 800px;
+}
+.help {
+  color: deepskyblue;
+  margin-top: 50px;
+}
+.helper {
+  width: 50px;
+  border-bottom: 1px dotted deepskyblue;
+}
+.spacer {
+  height: 30px;
+}
+.header {
+  display: none;
+}
+.container {
+  width: 1280px;
+  display: flex;
+}
+.profile {
+  width: 20%;
+  min-width: 350px;
+  height: 100vh;
+  margin-top: -20px;
+  margin-left: -15px;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+li {
+  list-style: none;
+}
+.thumbnail {
+  max-width: 65%;
+  margin-top: 8%;
+  margin-left: 8%;
+  border: 5px solid deepskyblue;
+  border-radius: 50%;
+}
+h1 {
+  font-size: 2em;
+}
+.profile-nav h1,
+.banner h1 {
+  margin-bottom: -10px;
+}
+.infos,
+.skills {
+  font-family: "PT Sans", sans-serif;
+}
+#td-spacing {
+  padding-right: 30px;
+}
+.main{
+  width: 80%;
+  padding: 5%;
+  flex-direction: column;
+}
+.tile {
+  padding-bottom: 50px;
+}
+.block {
+  padding-top: 20px;
+  border-bottom: 2px solid deepskyblue;
+}
+.banner {
+  padding-left: 5%;
+  height: 200px;
+}
+.banner h1 {
+  font-size: 2.5em;
+}
+.company,
+.mission {
+  width: 90%;
+}
+.company-loc,
+.company-desc {
+  margin-top: -10px;
+  line-height: 0.5em;
+}
+.mission-title {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+footer {
+  text-align: center;
+}
+.github {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.git-profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.git-resume,
+.git-stats {
+  width: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+}
+.git-resume {
+  border: 1px solid dimgrey;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #fafcff;
+}
+.git-avatar {
+  max-width: 200px;
+  max-height: 200px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.git-infos {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.git-infos h1 {
+  margin-bottom: 10px;
+}
+.git-stats {
+  flex-direction: column;
+  align-items: stretch;
+}
+.git-stats p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px dotted dimgrey;
+  color: deepskyblue;
+}.git-stats p a {
+  text-decoration: none;
+}
+.git-repos {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.git-repo {
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid dimgrey;
+  background: #fafcff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.git-repo h2, .git-repo p {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+.git-orgas {
+  display: flex;
+  justify-content: space-between;
+}
+.git-orga {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  border: 1px solid dimgrey;
+  padding: 20px;
+}
+.git-orga-infos {
+  display: flex;
+  flex-direction: column;
+}
+.git-orga img {
+  max-width: 150px;
+  max-height: 150px;
+  height: auto;
+  margin-right: 20px;
+}
+.git-gists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.git-gist {
+  width: 300px;
+  height: 100px;
+  border: 1px solid dimgrey;
+  overflow-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 5px;
+  padding: 10px;
+}
+.git-gist h3, .git-gist p {
+  margin-bottom: 0;
+  margin-top: 5px;
+}
