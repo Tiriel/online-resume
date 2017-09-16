@@ -24,6 +24,11 @@ class HomeButton extends React.Component {
             <i className="fa fa-github" />
           </Link>
         </div>
+        <div className="button">
+          <a href="http://benjaminzaslavsky.fr/static/cv-benjamin-zaslavsky.pdf">
+            <i className="fa fa-file-pdf-o" />
+          </a>
+        </div>
       </MotionMenu>
     );
   }

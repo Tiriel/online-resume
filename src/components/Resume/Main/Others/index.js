@@ -12,7 +12,7 @@ class MainOther extends React.Component {
           <ul>
             <li>Jeune papa</li>
             <li>Passionné de lecture et de découvertes</li>
-            <li>Musicien amateur</li>
+            <li>Violoncelliste amateur</li>
             <li>Runner & CrossFitter débutant</li>
             <li>Possède une raquette de tennis de table</li>
           </ul>
