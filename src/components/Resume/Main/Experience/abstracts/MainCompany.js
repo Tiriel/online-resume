@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-class MainExp extends React.Component {
+class MainCompany extends React.Component {
   render() {
     return (
       <article className="company">
@@ -20,10 +20,10 @@ class MainExp extends React.Component {
   }
 }
 
-MainExp.propTypes = {
+MainCompany.propTypes = {
   title: PropTypes.string.isRequired,
   loc: PropTypes.string.isRequired,
   desc: PropTypes.string.isRequired
 };
 
-export default MainExp;
+export default MainCompany;

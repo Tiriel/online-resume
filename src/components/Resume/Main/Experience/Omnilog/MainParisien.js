@@ -41,5 +41,4 @@ class MainParisien extends React.Component {
     );
   }
 }
-
 export default MainParisien;

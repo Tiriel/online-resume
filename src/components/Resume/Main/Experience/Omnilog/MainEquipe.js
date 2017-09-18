@@ -1,7 +1,7 @@
 import React from "react";
 import MainMission from "../abstracts/MainMission";
 
-class MainOmnilog extends React.Component {
+class MainEquipe extends React.Component {
   render() {
     return (
       <MainMission title="Mission : L'Equipe">
@@ -39,4 +39,4 @@ class MainOmnilog extends React.Component {
   }
 }
 
-export default MainOmnilog;
+export default MainEquipe;

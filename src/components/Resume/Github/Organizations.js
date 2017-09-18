@@ -13,10 +13,13 @@ class Organizations extends React.Component {
     }
     return (
       <section className="github" id="orgas">
-        <h1>Organizations <a href="#"><i className="fa fa-angle-up fa-fw" /></a></h1>
-        <div className="git-orgas">
-          {orgas}
-        </div>
+        <h1>
+          Organizations{" "}
+          <a href="#">
+            <i className="fa fa-angle-up fa-fw" />
+          </a>
+        </h1>
+        <div className="git-orgas">{orgas}</div>
       </section>
     );
   }

@@ -7,7 +7,7 @@ class MainBanner extends React.Component {
         <h1>Développeur PHP / Symfony, curieux de JS</h1>
         <h2>Autodidacte passionné, rigoureux, et touche-à-tout</h2>
       </article>
-  );
+    );
   }
 }
 

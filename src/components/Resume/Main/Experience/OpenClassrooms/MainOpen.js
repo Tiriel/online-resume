@@ -2,7 +2,7 @@ import React from "react";
 import MainCompany from "../abstracts/MainCompany";
 import MainMission from "../abstracts/MainMission";
 
-class MainParisien extends React.Component {
+class MainOpen extends React.Component {
   render() {
     return (
       <MainCompany
@@ -23,4 +23,4 @@ class MainParisien extends React.Component {
   }
 }
 
-export default MainParisien;
+export default MainOpen;

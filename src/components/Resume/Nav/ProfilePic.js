@@ -5,7 +5,11 @@ class ProfilePic extends React.Component {
     return (
       <li>
         <div>
-          <img src="http://benjaminzaslavsky.fr/static/decoded.jpeg" className="thumbnail" alt="" />
+          <img
+            src={require("../../../assets/decoded.jpeg")}
+            className="thumbnail"
+            alt=""
+          />
         </div>
       </li>
     );
