@@ -6,7 +6,7 @@ let token,
 
 if (env && env === "production") {
   require("dotenv").config();
-  token = process.env.API_TOKEN;
+  token = process.env.REACT_APP_API_TOKEN;
 } else if (/sandbox.io$/.test(hostname) || (env && env === "development")) {
   token = SANDBOX_TOKEN;
 } else {
