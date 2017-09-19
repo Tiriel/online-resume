@@ -1,5 +1,5 @@
 import React from "react";
-import Repo from "./models/Repo";
+import RepoContainer from "./models/RepoContainer";
 
 class Repositories extends React.Component {
   render() {
@@ -8,7 +8,7 @@ class Repositories extends React.Component {
     if (void 0 !== data.pinnedRepositories) {
       data = data.pinnedRepositories.nodes;
       data.forEach(rep => {
-        repos.push(<Repo key={rep.id} repo={rep} />);
+        repos.push(<RepoContainer key={rep.id} repo={rep} />);
       });
     }
     return (

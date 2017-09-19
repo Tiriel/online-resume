@@ -1,7 +1,7 @@
 {
   "name": "cv",
   "description": "My Resume in React",
-  "version": "0.0.426",
+  "version": "0.0.501",
   "dependencies": {
     "react-twitter-widgets": "1.5.1",
     "react-router-dom": "4.2.2",
@@ -9,6 +9,8 @@
     "react-helmet": "5.2.0",
     "react-dom": "15.5.3",
     "react": "15.5.3",
+    "prop-types": "15.5.10",
+    "dotenv": "4.0.0",
     "axios": "0.16.2"
   },
   "devDependencies": {
