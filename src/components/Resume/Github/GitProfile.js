@@ -2,24 +2,24 @@ import React from "react";
 
 class GitProfile extends React.Component {
   render() {
-    let data = this.props.data;
+    let github = this.props.github;
     let repos,
       contrib,
       gists,
       orgs = 0;
-    if (void 0 !== this.props.data.repositories) {
-      repos = data.repositories.totalCount;
-      contrib = data.contributedRepositories.totalCount;
-      gists = data.gists.totalCount;
-      orgs = data.organizations.totalCount;
+    if (void 0 !== this.props.github.repositories) {
+      repos = github.repositories.totalCount;
+      contrib = github.contributedRepositories.totalCount;
+      gists = github.gists.totalCount;
+      orgs = github.organizations.totalCount;
     }
     return (
       <section className="github git-profile">
         <article className="git-resume">
-          <img className="git-avatar" src={data.avatarUrl} alt="avatar" />
+          <img className="git-avatar" src={github.avatarUrl} alt="avatar" />
           <div className="git-infos">
-            <h1>{data.name}</h1>
-            <p>{data.bio}</p>
+            <h1>{github.name}</h1>
+            <p>{github.bio}</p>
           </div>
         </article>
         <article className="git-stats">

@@ -1,7 +1,19 @@
 import React from "react";
-import { Timeline } from "react-twitter-widgets";
+import { getStackUser } from "../../utils/api";
+import Widgets from "./Widgets";
 
 class Home extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { stack: {} };
+  }
+
+  componentDidMount() {
+    getStackUser().then(value => {
+      this.setState({ stack: value.data.items[0] });
+    });
+  }
+
   render() {
     return (
       <section className="container home">
@@ -19,20 +31,13 @@ class Home extends React.Component {
               Il a été réalisé sous ReactJS, l'intégration GitHub est faite via
               l'API GraphQL v4.
             </p>
+            <p>
+              Cliquez sur le menu en haut à gauche pour accéder à mon CV en
+              ligne, mon résumé GitHub, et mon CV au format PDF.
+            </p>
           </article>
         </section>
-        <section className="home-tweets">
-        <Timeline
-          dataSource={{
-            sourceType: "profile",
-            screenName: "Ben_tiriel"
-          }}
-          options={{
-            username: "Ben_tiriel",
-            height: "400"
-          }}
-        />
-        </section>
+        <Widgets stack={this.state.stack} />
       </section>
     );
   }

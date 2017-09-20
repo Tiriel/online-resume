@@ -1,7 +1,7 @@
 {
   "name": "cv",
   "description": "My Resume in React",
-  "version": "0.0.501",
+  "version": "0.0.650",
   "dependencies": {
     "react-twitter-widgets": "1.5.1",
     "react-router-dom": "4.2.2",

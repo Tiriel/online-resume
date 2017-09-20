@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import { getUser } from "../../../utils/api";
+import { getGithubUser } from "../../../utils/api";
 import GitProfile from "./GitProfile";
 import Gists from "./Gists";
 import Repositories from "./Repositories";
@@ -9,20 +9,20 @@ import Organizations from "./Organizations";
 class Github extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { data: {} };
+    this.state = { github: {} };
   }
 
   componentWillMount() {
-    getUser().then(value => {
-      this.setState({ data: value.data.data });
+    getGithubUser().then(value => {
+      this.setState({ github: value.data.data });
     });
   }
 
   render() {
-    let data = this.state.data;
-    let ready = void 0 !== data.user;
+    let github = this.state.github;
+    let ready = void 0 !== github.user;
     if (ready) {
-      data = data.user;
+      github = github.user;
     }
     return (
       <section className="main container">
@@ -30,10 +30,10 @@ class Github extends React.Component {
           <title>Profil GitHub</title>
         </Helmet>
         <h1>GitHub Profile</h1>
-        <GitProfile data={data} />
-        <Repositories data={data} />
-        <Gists data={data} />
-        <Organizations data={data} />
+        <GitProfile github={github} />
+        <Repositories data={github} />
+        <Gists data={github} />
+        <Organizations data={github} />
       </section>
     );
   }

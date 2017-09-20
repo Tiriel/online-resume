@@ -41,10 +41,55 @@ a:visited {
   width: 60%;
   padding-left: 20px;
 }
-.home-tweets {
-  width: 30%;
-  margin: auto;
-  margin-top: 100px;
+a.stack,
+a.stack:hover,
+a.stack:visited {
+  text-decoration: none;
+  color: slategrey
+}
+.widgets {
+  width: 40%;
+  max-width: 600px;
+  min-width: 400px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+.widgets div:first-child {
+  width: 90%;
+}
+.stack-flair {
+  max-width: 150px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid deepskyblue;
+  margin: 50px;
+  padding: 5px;
+}
+.stack-flair img {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+.stack-flair {
+  text-decoration: none;
+  font-size: 0.8em;
+}
+.bronze {
+  color: #C38B5F;
+}
+.silver {
+  color: #8c9298;
+}
+.gold {
+  color: #cda400;
+}
+.linkedin {
+  height: 50px;
 }
 .article {
   width: 50%;
