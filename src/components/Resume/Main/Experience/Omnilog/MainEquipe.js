@@ -13,15 +13,14 @@ class MainEquipe extends React.Component {
           </dt>
           <dd>
             <p>
-              Développement d'une application relai vidéo<br />
-              Récupération et dispatch de vidéos vers des providers multiples
-              (Dailymotion et YouTube)<br />
-              Gestion et enregistrement des metadonnées<br />
-              Développement et conception effectués en solitaire
+              Développement d'une application Google Home<br />
+              Gestion des entrées voix utilisateur<br />
+              Gestion des fonctionnalités principales (flash info audio,<br />
+              histoires du jour à la demande, jeu de questions-réponses)
             </p>
             <em>Stack technique : </em>
             <ul>
-              <li>Amazon Web Services (AWS) Lambda, Node.JS 6</li>
+              <li>Actions on Google, Dialogflow, Firebase, Node.JS 6</li>
             </ul>
           </dd>
           <dt>
