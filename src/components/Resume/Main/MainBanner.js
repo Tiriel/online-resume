@@ -1,11 +1,12 @@
 import React from "react";
+import text from "./mainBanner.json"
 
 class MainBanner extends React.Component {
   render() {
     return (
       <article className="tile banner">
-        <h1>Développeur PHP / Symfony, curieux de JS</h1>
-        <h2>Autodidacte passionné, rigoureux, et touche-à-tout</h2>
+        <h1>{text[this.props.locale].h1}</h1>
+        <h2>{text[this.props.locale].h2}</h2>
       </article>
     );
   }

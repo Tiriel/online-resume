@@ -1,39 +1,31 @@
 import React from "react";
 import MainMission from "../abstracts/MainMission";
+import text from "./text.json";
 
 class MainParisien extends React.Component {
   render() {
     return (
-      <MainMission title="Mission : Le Parisien">
+      <MainMission title={text[this.props.locale].MainParisien.title}>
         <dl>
           <dt>
-            <strong>Développement d'une API RESTful dédiée à la vidéo :</strong>
+            <strong>{text[this.props.locale].MainParisien.dt1}</strong>
           </dt>
           <dd>
             <p>
-              Gestion des fiches d'informations des vidéos (CRUD)<br />
-              Gestion des opérations CRUD sur les plateformes de diffusion
-              partenaires (Dailymotion et Brightcove)<br />
-              Upload de fichiers vidéos<br />
-              Ré encodage asynchrone sur l'API et ingestion asynchrone des
-              vidéos chez les plateformes de diffusion partenaires<br />
-              Développement et conception effectués en solitaire
+              {text[this.props.locale].MainParisien.dd1.map(val => <span>{val}<br/></span>)}
             </p>
-            <em>Stack technique : </em>
+            <em>{text[this.props.locale].MainParisien.em}</em>
             <ul>
               <li>Symfony 2.8, ElasticSearch, RabbitMQ, FFMpeg</li>
             </ul>
           </dd>
+          <br />
           <dt>
-            <strong>Support applicatif :</strong>
+            <strong>{text[this.props.locale].MainParisien.dt2}</strong>
           </dt>
           <dd>
             <p>
-              Passage de l'API articles en HTTPS<br />
-              Adaptation de l'API articles pour nouvelles applications mobiles<br
-              />
-              Changement de prestataire de paiement<br />
-              Divers tickets de résolution de bugs/maintenance préventive<br />
+              {text[this.props.locale].MainParisien.dd2.map(val => <span>{val}<br /></span>)}
             </p>
           </dd>
         </dl>

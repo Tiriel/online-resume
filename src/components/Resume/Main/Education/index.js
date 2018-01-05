@@ -1,5 +1,6 @@
 import React from "react";
 import TileBlock from "../TileBlock";
+import text from "./index.json";
 
 class MainEd extends React.Component {
   render() {
@@ -11,14 +12,13 @@ class MainEd extends React.Component {
         <div>
           <dl>
             <dt>
-              <strong>Juin 2017 - En cours : </strong>Validation des Acquis de
-              l'Expérience
+              <strong>{text[this.props.locale].dt.st}</strong>{text[this.props.locale].dt.txt}
             </dt>
             <dd>
               <p>
-                <em>RNCP - Développeur d'Applications PHP / Symfony</em>
+                <em>{text[this.props.locale].dd.em}</em>
                 <br />
-                Téléformation : OpenClassrooms
+                {text[this.props.locale].dd.p}
               </p>
             </dd>
           </dl>

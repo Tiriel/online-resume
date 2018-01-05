@@ -1,35 +1,33 @@
 import React from "react";
 import MainMission from "../abstracts/MainMission";
+import text from "./text.json";
 
 class MainEquipe extends React.Component {
   render() {
     return (
-      <MainMission title="Mission : L'Equipe">
+      <MainMission title={text[this.props.locale].MainEquipe.title}>
         <dl>
           <dt>
             <strong>
-              Développement d'une application serverless d'upload video:
+              {text[this.props.locale].MainEquipe.dt1}
             </strong>
           </dt>
           <dd>
             <p>
-              Développement d'une application Google Home<br />
-              Gestion des entrées voix utilisateur<br />
-              Gestion des fonctionnalités principales (flash info audio,<br />
-              histoires du jour à la demande, jeu de questions-réponses)
+              {text[this.props.locale].MainEquipe.dd1.map(val => <span>{val}<br /></span>)}
             </p>
-            <em>Stack technique : </em>
+            <em>{text[this.props.locale].MainEquipe.em}</em>
             <ul>
               <li>Actions on Google, Dialogflow, Firebase, Node.JS 6</li>
             </ul>
           </dd>
+          <br />
           <dt>
-            <strong>Support applicatif :</strong>
+            <strong>{text[this.props.locale].MainEquipe.dt2}</strong>
           </dt>
           <dd>
             <p>
-              Amélioration de l'outil d'upload interne<br />
-              Préparation à l'export de statistiques vidéos<br />
+              {text[this.props.locale].MainEquipe.dd2.map(val => <span>{val}<br /></span>)}
             </p>
           </dd>
         </dl>

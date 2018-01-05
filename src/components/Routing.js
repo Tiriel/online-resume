@@ -10,8 +10,14 @@ class Routing extends React.Component {
       <section className="container">
         <HomeButton />
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/resume" component={Resume} />
+          <Route
+            exact path="/"
+            render={props => <Home {...props} locale={this.props.locale} />}
+          />
+          <Route
+            path="/resume"
+            render={props => <Resume {...props} locale={this.props.locale} />}
+          />
         </Switch>
       </section>
     );

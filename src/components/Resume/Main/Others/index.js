@@ -1,20 +1,17 @@
 import React from "react";
 import TileBlock from "../TileBlock";
+import text from "./index.json";
 
 class MainOther extends React.Component {
   render() {
     return (
       <TileBlock>
         <h1>
-          <i className="fa fa-fa-book fa-fw" /> Autres
+          <i className="fa fa-book fa-fw" /> {text[this.props.locale].h1}
         </h1>
         <div>
           <ul>
-            <li>Jeune papa</li>
-            <li>Passionné de lecture et de découvertes</li>
-            <li>Violoncelliste amateur</li>
-            <li>Runner & CrossFitter débutant</li>
-            <li>Possède une raquette de tennis de table</li>
+            {text[this.props.locale].ul.map(val => <li>{val}</li>)}
           </ul>
         </div>
       </TileBlock>

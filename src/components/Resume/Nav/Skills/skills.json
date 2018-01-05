@@ -1,0 +1,36 @@
+{
+  "fr": {
+    "skills": "Compétences",
+    "tech" :{
+      "title": "Langages / Technologies"
+    },
+    "hum": {
+      "title": "Qualités",
+      "table": {
+        "auto": "Autonomie",
+        "team": "Travail d'équipe",
+        "org": "Organisation",
+        "agi": "Agilité",
+        "rel": "Relationnel",
+        "ps": "Rigueur"
+      }
+    }
+  },
+  "en": {
+    "skills": "Skills",
+    "tech": {
+      "title": "Languages / Technologies"
+    },
+    "hum": {
+      "title": "Qualities",
+      "table": {
+        "auto": "Autonomy",
+        "team": "Team work",
+        "org": "Organization",
+        "agi": "Agility",
+        "rel": "Interpersonal",
+        "ps": "Conscientiousness"
+      }
+    }
+  }
+}

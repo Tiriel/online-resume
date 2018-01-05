@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import text from "./text.json";
 
 class ProfileInfos extends React.Component {
   render() {
@@ -16,7 +17,7 @@ class ProfileInfos extends React.Component {
           </li>
           <li>
             <i className="fa-li fa fa-file-text-o" aria-hidden="true" />{" "}
-            <Link to="/resume">Curriculum Vitae</Link>
+            <Link to="/resume">{text[this.props.locale].cv}</Link>
           </li>
           <li>
             <i className="fa-li fa fa-github" aria-hidden="true" />{" "}

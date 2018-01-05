@@ -1,21 +1,19 @@
 import React from "react";
 import MainCompany from "../abstracts/MainCompany";
 import MainMission from "../abstracts/MainMission";
+import text from "./open.json";
 
 class MainOpen extends React.Component {
   render() {
     return (
       <MainCompany
-        title="OpenClassrooms"
-        loc="Paris, France"
-        desc="Organisme de formation en ligne."
+        title={text[this.props.locale].title}
+        loc={text[this.props.locale].loc}
+        desc={text[this.props.locale].desc}
       >
         <MainMission title="Mentor">
           <p>
-            Encadrement et accompagnement d'élèves sur les projets de
-            développement PHP, Symfony, et WordPress.<br />
-            Parcours concernés : RNCP Développeur d'Applications PHP / Symfony,
-            RNCP Chef de Projet Multimédia - Développement
+            {text[this.props.locale].p.map(val => <span>{val}<br /></span>)}
           </p>
         </MainMission>
       </MainCompany>

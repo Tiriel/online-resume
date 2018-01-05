@@ -6,9 +6,9 @@ class HumanSkills extends React.Component {
     return (
       <div className="react-wrapper">
         <h3>
-          <i className="fa fa-cog fa-fw" />Qualités
+          <i className="fa fa-cog fa-fw" />{this.props.text.title}
         </h3>
-        <HumanTable />
+        <HumanTable text={this.props.text.table}/>
       </div>
     );
   }

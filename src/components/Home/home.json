@@ -1,0 +1,24 @@
+{
+  "fr": {
+    "presentation": {
+      "h2": "Développeur PHP / Symfony, curieux de JS",
+      "h3": "Autodidacte passionné, rigoureux, et touche-à-tout"
+    },
+    "article": {
+      "p1": "Ce site a pour but de présenter mes compétences et mon travail.",
+      "p2": "Il a été réalisé sous React.js, l'intégration GitHub est faite via l'API GraphQL v4.",
+      "p3": "Cliquez sur le menu en haut à gauche pour accéder à mon CV en ligne, mon résumé GitHub, et mon CV au format PDF."
+    }
+  },
+  "en": {
+    "presentation": {
+      "h2": "PHP / Symfony Developer, JS curious",
+      "h3": "Passionate self-taught, painstaking, and all-rounder"
+    },
+    "article": {
+      "p1": "This website aims to showcase my skills and my work.",
+      "p2": "It was made with React.js, with a GitHub v4 GraphQL API.",
+      "p3": "Use the top left menu to navigate to my online resume, my GitHub page, and my PDF formatted resume."
+    }
+  }
+}

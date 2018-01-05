@@ -1,0 +1,82 @@
+{
+  "fr": {
+    "MainOmnilog": {
+      "title": "Omnilog SA",
+      "loc": "Neuilly, France",
+      "desc": "Entreprise de Services Numériques. Diverses missions en régie clientèle."
+    },
+    "MainParisien": {
+      "title": "Mission : Le Parisien",
+      "dt1": "Développement d'une API RESTful dédiée à la vidéo :",
+      "dd1": [
+        "Gestion des fiches d'informations des vidéos (CRUD)",
+        "Gestion des opérations CRUD sur les plateformes de diffusion partenaires (Dailymotion et Brightcove)",
+        "Upload de fichiers vidéos",
+        "Ré encodage asynchrone sur l'API et ingestion asynchrone des vidéos chez les plateformes de diffusion partenaires",
+        "Développement et conception effectués en solitaire"
+      ],
+      "em": "Stack technique :",
+      "dt2": "Support applicatif :",
+      "dd2": [
+        "Changement de prestataire de paiement",
+        "Divers tickets de résolution de bugs/maintenance préventive"
+      ]
+    },
+    "MainEquipe": {
+      "title": "Mission : L'Équipe",
+      "dt1": "Développement d'une application serverless Google Assistant:",
+      "dd1": [
+        "Développement d'une application pour Google Home",
+        "Gestion des entrées voix utilisateur",
+        "Gestion des fonctionnalités principales (flash info audio,",
+        "histoires du jour à la demande, jeu de questions-réponses)"
+      ],
+      "em": "Stack technique :",
+      "dt2": "Support applicatif :",
+      "dd2": [
+        "Amélioration de l'outil d'upload interne",
+        "Préparation à l'export de statistiques vidéos"
+      ]
+    }
+  },
+  "en": {
+    "MainOmnilog": {
+      "title": "Omnilog SA",
+      "loc": "Neuilly, France",
+      "desc": "Information Technology company. Various missions on site."
+    },
+    "MainParisien": {
+      "title": "Mission : Le Parisien (newspaper)",
+      "dt1": "Dévelopement of a RESTful API dedicated to video :",
+      "dd1": [
+        "Meta informations cards management (CRUD)",
+        "CRUD operations management on partner broadcasting platforms (Dailymotion and Brightcove)",
+        "Video files upload",
+        "Asynchronous re-encoding on the API and asynchronous ingestion on partner broadcasting platforms",
+        "Solitary design and developement."
+      ],
+      "em": "Technological stack :",
+      "dt2": "Application support :",
+      "dd2": [
+        "Change of payment provider",
+        "Various bug fixes / preventive maintenance"
+      ]
+    },
+    "MainEquipe": {
+      "title": "Mission : L'Équipe (newspaper)",
+      "dt1": "Serverless Google Assistant application developement:",
+      "dd1": [
+        "Google Home oriented application developement",
+        "User voice input management",
+        "Main functionnalities management (audio news flash,",
+        "on demand stories of the day, trivia game)"
+      ],
+      "em": "Technology stack :",
+      "dt2": "Application support :",
+      "dd2": [
+        "Internal video upload tool improvement",
+        "Video staistical exports preparation."
+      ]
+    }
+  }
+}

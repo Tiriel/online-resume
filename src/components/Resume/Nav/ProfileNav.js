@@ -4,6 +4,7 @@ import ProfileTitle from "./ProfileTitle";
 import ProfileInfos from "./ProfileInfos";
 import ProfileSpacer from "./ProfileSpacer";
 import ProfileSkills from "./Skills";
+import text from "./text.json";
 
 class ProfileNav extends React.Component {
   render() {
@@ -11,12 +12,12 @@ class ProfileNav extends React.Component {
       <ul className="profile-nav">
         <ProfilePic />
         <ProfileTitle />
-        <ProfileInfos />
+        <ProfileInfos locale={this.props.locale}/>
         <ProfileSpacer />
         <ProfileSpacer />
-        <ProfileSkills />
+        <ProfileSkills locale={this.props.locale}/>
         <div className="help">
-          <span className="helper">Underlined</span> : Cliquable
+          <span className="helper">Underlined</span> : {text[this.props.locale].click}
         </div>
       </ul>
     );

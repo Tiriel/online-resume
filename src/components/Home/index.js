@@ -1,6 +1,7 @@
 import React from "react";
 import { getStackUser } from "../../utils/api";
 import Widgets from "./Widgets";
+import text from "./home.json";
 
 class Home extends React.Component {
   constructor(props) {
@@ -20,20 +21,18 @@ class Home extends React.Component {
         <section className="home-title">
           <article className="presentation">
             <h1>Benjamin Zaslavsky</h1>
-            <h2>Développeur PHP / Symfony, curieux de JS</h2>
-            <h3>Autodidacte passionné, rigoureux, et touche-à-tout</h3>
+            <h2>{text[this.props.locale].presentation.h2}</h2>
+            <h3>{text[this.props.locale].presentation.h3}</h3>
           </article>
           <article className="article">
             <p>
-              Ce site a pour but de présenter mes compétences et mon travail.
+              {text[this.props.locale].article.p1}
             </p>
             <p>
-              Il a été réalisé sous ReactJS, l'intégration GitHub est faite via
-              l'API GraphQL v4.
+              {text[this.props.locale].article.p2}
             </p>
             <p>
-              Cliquez sur le menu en haut à gauche pour accéder à mon CV en
-              ligne, mon résumé GitHub, et mon CV au format PDF.
+              {text[this.props.locale].article.p3}
             </p>
           </article>
         </section>

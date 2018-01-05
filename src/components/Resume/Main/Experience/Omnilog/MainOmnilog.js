@@ -2,17 +2,18 @@ import React from "react";
 import MainCompany from "../abstracts/MainCompany";
 import MainParisien from "./MainParisien";
 import MainEquipe from "./MainEquipe";
+import text from "./text.json";
 
 class MainOmnilog extends React.Component {
   render() {
     return (
       <MainCompany
-        title="Omnilog SA"
-        loc="Neuilly, France"
-        desc="Entreprise de Services Numériques. Diverses missions en régie clientèle."
+        title={text[this.props.locale].MainOmnilog.title}
+        loc={text[this.props.locale].MainOmnilog.loc}
+        desc={text[this.props.locale].MainOmnilog.desc}
       >
-        <MainParisien />
-        <MainEquipe />
+        <MainParisien locale={this.props.locale} />
+        <MainEquipe locale={this.props.locale} />
       </MainCompany>
     );
   }
