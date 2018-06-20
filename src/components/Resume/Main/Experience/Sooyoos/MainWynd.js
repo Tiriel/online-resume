@@ -12,7 +12,7 @@ class MainWynd extends React.Component {
           </dt>
           <dd>
             <p>
-              {text[this.props.locale].MainWynd.dd1.map(val => <span>{val}<br /></span>)}
+              {text[this.props.locale].MainWynd.dd1.map((val) => <span>{val}<br /></span>)}
             </p>
             <em>{text[this.props.locale].MainWynd.em}</em>
             <ul>

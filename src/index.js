@@ -10,11 +10,11 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.changeLocale = this.changeLocale.bind(this);
-    this.state = { locale: 'fr' };
+    this.state = { locale: "fr" };
   }
 
   changeLocale(locale) {
-    this.setState({locale: locale});
+    this.setState({locale});
   }
 
   render() {

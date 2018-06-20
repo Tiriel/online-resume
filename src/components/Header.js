@@ -9,11 +9,11 @@ class Header extends React.Component {
   }
 
   french() {
-    this.props.changeLocale('fr');
+    this.props.changeLocale("fr");
   }
 
   english() {
-    this.props.changeLocale('en');
+    this.props.changeLocale("en");
   }
 
   render() {
