@@ -14,7 +14,7 @@ class MainOpen extends React.Component {
       >
         <MainMission title="Mentor">
           <p>
-            {text[this.props.locale].p.map(val => <span>{val}<br /></span>)}
+            {text[this.props.locale].p.map((val) => <span>{val}<br /></span>)}
           </p>
         </MainMission>
       </MainCompany>

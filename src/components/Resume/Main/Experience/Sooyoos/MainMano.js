@@ -14,7 +14,7 @@ class MainMano extends React.Component {
           </dt>
           <dd>
             <p>
-              {text[this.props.locale].MainMano.dd1.map(val => <span>{val}<br /></span>)}
+              {text[this.props.locale].MainMano.dd1.map((val) => <span>{val}<br /></span>)}
             </p>
             <em>{text[this.props.locale].MainMano.em}</em>
             <ul>
