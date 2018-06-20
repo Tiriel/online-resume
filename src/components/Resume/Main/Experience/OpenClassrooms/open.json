@@ -2,6 +2,7 @@
   "fr": {
     "title": "OpenClassrooms",
     "loc": "Paris, France",
+    "date": "Janvier 2017 - présent",
     "desc": "Organisme de formation en ligne.",
     "p": [
       "Encadrement et accompagnement d'élèves sur les projets de développement PHP, Symfony, et WordPress.",
@@ -11,6 +12,7 @@
   "en": {
     "title": "OpenClassrooms",
     "loc": "Paris, France",
+    "date": "January 2017 - present",
     "desc": "Online training company.",
     "p": [
       "Supervision and support for students on PHP, Symfony, and WordPress development projects.",

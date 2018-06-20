@@ -9,6 +9,7 @@ class MainOpen extends React.Component {
       <MainCompany
         title={text[this.props.locale].title}
         loc={text[this.props.locale].loc}
+        date={text[this.props.locale].date}
         desc={text[this.props.locale].desc}
       >
         <MainMission title="Mentor">

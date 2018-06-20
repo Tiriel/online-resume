@@ -10,6 +10,7 @@ class MainOmnilog extends React.Component {
       <MainCompany
         title={text[this.props.locale].MainOmnilog.title}
         loc={text[this.props.locale].MainOmnilog.loc}
+        date={text[this.props.locale].MainOmnilog.date}
         desc={text[this.props.locale].MainOmnilog.desc}
       >
         <MainParisien locale={this.props.locale} />

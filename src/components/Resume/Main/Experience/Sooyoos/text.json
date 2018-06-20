@@ -1,0 +1,54 @@
+{
+  "fr": {
+    "MainSooyoos": {
+      "title": "Sooyoos",
+      "loc": "Paris, France",
+      "date": "Décembre 2017 - présent",
+      "desc": "Agence Web. Diverses missions en portage pour SensioLabs."
+    },
+    "MainWynd": {
+      "title": "Mission : Wynd",
+      "dt1": "Equipes Search et Checkout:",
+      "dd1": [
+        "Affichage des traductions automatisées des avis clients.",
+        "Diverses évolutions et corrections."
+      ],
+      "em": "Stack technique :"
+    },
+    "MainMano": {
+      "title": "Mission : ManoMano",
+      "dt1": "Développement de projets clients omnicanaux:",
+      "dd1": [
+        "Workflow et connection aux API transporteurs pour solutions de livraison omnicanales.",
+        "Connection aux API de prestataires de paiement pour solutions de restaurations au sein de conférences."
+      ],
+      "em": "Stack technique :"
+    }
+  },
+  "en": {
+    "MainSooyoos": {
+      "title": "Sooyoos",
+      "loc": "Paris, France",
+      "date": "December 2017 - present",
+      "desc": "Web Agency. Various port missions on site for SensioLabs."
+    },
+    "MainWynd": {
+      "title": "Mission : Wynd",
+      "dt1": "Developement of client omnichannel projects:",
+      "dd1": [
+        "Carriers API connections and workflow for omnichannel delivery solutions.",
+        "Payment provider API connection for on site fooding solutions on conferences;"
+      ],
+      "em": "Technological stack :"
+    },
+    "MainMano": {
+      "title": "Mission : ManoMano",
+      "dt1": "Checkout workflow/Search teams:",
+      "dd1": [
+        "Product reviews API translation.",
+        "Various minor evolutions and bugfixes."
+      ],
+      "em": "Technology stack :"
+    }
+  }
+}

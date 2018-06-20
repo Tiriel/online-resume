@@ -1,21 +1,21 @@
 {
   "fr": {
     "dt": {
-      "st": "Juin 2017 - En cours : ",
+      "st": "Juin 2017 - Avril 2018 : ",
       "txt": "Validation des Acquis de l'Expérience"
     },
     "dd": {
-      "em": "RNCP - Développeur d'Applications PHP / Symfony",
+      "em": "RNCP Niveau II (Bac +3) - Développeur d'Applications PHP / Symfony",
       "p": "Téléformation : OpenClassrooms"
     }
   },
   "en": {
     "dt": {
-      "st": "June 2017 - now : ",
+      "st": "June 2017 - Avril 2018 : ",
       "txt": "Validation of professionnal experience"
     },
     "dd": {
-      "em": "PHP / Symfony Applications Developer BCs",
+      "em": "Level II diploma (BA) - PHP / Symfony Applications Developer BCs",
       "p": "Online training : OpenClassrooms"
     }
   }
