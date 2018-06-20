@@ -11,7 +11,7 @@ class MainCompany extends React.Component {
         </h3>
         <p className="company-loc">
           <i className="fa fa-location-arrow fa-fw" />
-          {this.props.loc}
+          {this.props.loc} / {this.props.date}
         </p>
         <p>{this.props.desc}</p>
         {this.props.children}
@@ -23,6 +23,7 @@ class MainCompany extends React.Component {
 MainCompany.propTypes = {
   title: PropTypes.string.isRequired,
   loc: PropTypes.string.isRequired,
+  date: PropTypes.string.isRequired,
   desc: PropTypes.string.isRequired
 };
 
