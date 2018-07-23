@@ -3,18 +3,18 @@
   "description": "My Resume in React",
   "version": "0.0.650",
   "dependencies": {
-    "react-twitter-widgets": "1.5.1",
-    "react-router-dom": "4.2.2",
-    "react-motion-menu": "0.4.4",
-    "react-helmet": "5.2.0",
-    "react-dom": "15.5.3",
-    "react": "15.5.3",
-    "prop-types": "15.5.10",
-    "dotenv": "4.0.0",
-    "axios": "0.16.2"
+    "axios": "0.16",
+    "dotenv": "4.00",
+    "prop-types": "15.5",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "react-helmet": "5.2",
+    "react-motion-menu": "0.4",
+    "react-router-dom": "4.2",
+    "react-twitter-widgets": "1.5"
   },
   "devDependencies": {
-    "react-scripts": "1.0.0"
+    "react-scripts": "^1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
