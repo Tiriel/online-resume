@@ -9,7 +9,7 @@ class GitProfile extends React.Component {
       orgs = 0;
     if (void 0 !== this.props.github.repositories) {
       repos = github.repositories.totalCount;
-      contrib = github.contributedRepositories.totalCount;
+      contrib = github.repositoriesContributedTo.totalCount;
       gists = github.gists.totalCount;
       orgs = github.organizations.totalCount;
     }

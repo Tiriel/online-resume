@@ -10,12 +10,9 @@ const GITHUB_API_URL = "https://api.github.com/graphql";
 const STACK_API_URL = "https://api.stackexchange.com";
 
 function getGithubUser() {
-  let gUser = {
-    query:
-      '{ user(login: "tiriel") { id name avatarUrl bio repositories { totalCount } contributedRepositories { totalCount } pinnedRepositories(first: 6) { nodes { id name description url languages(first: 6) { edges { node { color name } size }}}} gists(first: 9) { totalCount nodes { id name description }} organizations(first: 3) { totalCount nodes { id name url avatarUrl description}}}}'
-  };
+  let gUser = '{ user(login: "tiriel") { id name avatarUrl bio repositories { totalCount } repositoriesContributedTo { totalCount } pinnedRepositories(first: 6) { nodes { id name description url languages(first: 6) { edges { node { color name } size }}}} gists(first: 9) { totalCount nodes { id name description }} organizations(first: 3) { totalCount nodes { id name url avatarUrl description}}}}';
 
-  return axios.post(GITHUB_API_URL, JSON.stringify(gUser), {
+  return axios.post(GITHUB_API_URL, {query: gUser}, {
     headers: { Authorization: "Bearer " + GITHUB_API_TOKEN }
   });
 }
