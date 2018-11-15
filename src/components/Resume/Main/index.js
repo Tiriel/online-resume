@@ -5,16 +5,16 @@ import MainEd from "./Education";
 import MainOther from "./Others";
 
 class Main extends React.Component {
-  render() {
-    return (
-      <section className="main container">
-        <MainBanner locale={this.props.locale}/>
-        <MainExp locale={this.props.locale}/>
-        <MainEd locale={this.props.locale}/>
-        <MainOther locale={this.props.locale}/>
-      </section>
-    );
-  }
+    render () {
+        return (
+            <section className="main container">
+                <MainBanner locale={this.props.locale}/>
+                <MainExp locale={this.props.locale}/>
+                <MainEd locale={this.props.locale}/>
+                <MainOther locale={this.props.locale}/>
+            </section>
+        );
+    }
 }
 
 export default Main;

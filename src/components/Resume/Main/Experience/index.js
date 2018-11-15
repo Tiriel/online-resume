@@ -6,18 +6,19 @@ import MainOpen from "./OpenClassrooms/MainOpen";
 import text from "./index.json";
 
 class MainExp extends React.Component {
-  render() {
-    return (
-      <TileBlock>
-        <h1>
-          <i className="fa fa-briefcase fa-fw" /> {text[this.props.locale]}
-        </h1>
-        <MainOmnilog locale={this.props.locale}/>
-        <MainSooyoos locale={this.props.locale}/>
-        <MainOpen locale={this.props.locale}/>
-      </TileBlock>
-    );
-  }
+    render () {
+        return (
+            <TileBlock>
+                <h1>
+                    {/*  eslint-disable-next-line max-len */}
+                    <i className="fa fa-briefcase fa-fw" /> {text[this.props.locale]}
+                </h1>
+                <MainOmnilog locale={this.props.locale}/>
+                <MainSooyoos locale={this.props.locale}/>
+                <MainOpen locale={this.props.locale}/>
+            </TileBlock>
+        );
+    }
 }
 
 export default MainExp;

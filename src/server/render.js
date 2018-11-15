@@ -1,13 +1,14 @@
+/* eslint-disable max-len */
 import { renderToString } from "react-dom/server";
 
-const DEV = process.env.NODE_ENV === "development";
-const assetManifest = JSON.parse(process.env.REACT_APP_ASSET_MANIFEST || "{}");
-const bundleUrl = DEV ?
-    "/static/js/bundle.js" :
-    `${assetManifest["main.js"]}`;
-const css = DEV ?
-    "":
-    `<link rel="stylesheet" href="/${assetManifest["main.css"]} media="all" />`;
+const DEV = process.env.NODE_ENV === "development",
+    assetManifest = JSON.parse(process.env.REACT_APP_ASSET_MANIFEST || "{}"),
+    bundleUrl = DEV
+        ? "/static/js/bundle.js"
+        : `${assetManifest["main.js"]}`,
+    css = DEV
+        ? ""
+        : `<link rel="stylesheet" href="/${assetManifest["main.css"]} media="all" />`;
 
 export default (component) => `
     <!DOCTYPE html>
