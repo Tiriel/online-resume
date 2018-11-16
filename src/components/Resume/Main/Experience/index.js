@@ -11,11 +11,12 @@ class MainExp extends React.Component {
             <TileBlock>
                 <h1>
                     {/*  eslint-disable-next-line max-len */}
-                    <i className="fa fa-briefcase fa-fw" /> {text[this.props.locale]}
+                    <i className="fa fa-briefcase fa-fw" />{" "}
+                    {text[this.props.locale]}
                 </h1>
-                <MainOmnilog locale={this.props.locale}/>
-                <MainSooyoos locale={this.props.locale}/>
-                <MainOpen locale={this.props.locale}/>
+                <MainOmnilog locale={this.props.locale} />
+                <MainSooyoos locale={this.props.locale} />
+                <MainOpen locale={this.props.locale} />
             </TileBlock>
         );
     }

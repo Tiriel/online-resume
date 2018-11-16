@@ -14,7 +14,7 @@ class Repositories extends React.Component {
         return (
             <section className="github" id="repos">
                 <h1>
-          Pinned Repositories{" "}
+                    Pinned Repositories{" "}
                     <a href="#">
                         <i className="fa fa-angle-up fa-fw" />
                     </a>

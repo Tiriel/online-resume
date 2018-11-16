@@ -14,7 +14,7 @@ class Organizations extends React.Component {
         return (
             <section className="github" id="orgas">
                 <h1>
-          Organizations{" "}
+                    Organizations{" "}
                     <a href="#">
                         <i className="fa fa-angle-up fa-fw" />
                     </a>

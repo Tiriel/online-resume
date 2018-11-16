@@ -1,15 +1,10 @@
 import React from "react";
 
 class LinkedIn extends React.Component {
-    componentDidMount () {
-
-    }
+    componentDidMount () {}
 
     render () {
-        return (
-            <div className="linkedin">
-            </div>
-        );
+        return <div className="linkedin" />;
     }
 }
 

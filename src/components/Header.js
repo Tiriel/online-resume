@@ -21,11 +21,11 @@ class Header extends React.Component {
             <header className="spacer">
                 <p className="locale-selector">
                     <span href="" id="fr" onClick={this.french}>
-            français
+                        français
                     </span>{" "}
-          -&nbsp;
+                    -&nbsp;
                     <span href="" id="en" onClick={this.english}>
-            english
+                        english
                     </span>
                 </p>
                 <div className="header">

@@ -9,12 +9,12 @@ class Widgets extends React.Component {
             <div className="widgets">
                 <Timeline
                     dataSource={{
-                        "sourceType": "profile",
-                        "screenName": "Ben_tiriel"
+                        sourceType: "profile",
+                        screenName: "Ben_tiriel"
                     }}
                     options={{
-                        "username": "Ben_tiriel",
-                        "height": "400"
+                        username: "Ben_tiriel",
+                        height: "400"
                     }}
                 />
                 <StackFlair stack={this.props.stack} />

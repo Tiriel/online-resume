@@ -3,12 +3,12 @@ import { renderToString } from "react-dom/server";
 
 const DEV = process.env.NODE_ENV === "development",
     assetManifest = JSON.parse(process.env.REACT_APP_ASSET_MANIFEST || "{}"),
-    bundleUrl = DEV
-        ? "/static/js/bundle.js"
-        : `${assetManifest["main.js"]}`,
+    bundleUrl = DEV ? "/static/js/bundle.js" : `${assetManifest["main.js"]}`,
     css = DEV
         ? ""
-        : `<link rel="stylesheet" href="/${assetManifest["main.css"]} media="all" />`;
+        : `<link rel="stylesheet" href="/${
+            assetManifest["main.css"]
+        } media="all" />`;
 
 export default (component) => `
     <!DOCTYPE html>

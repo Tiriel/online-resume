@@ -5,10 +5,10 @@ class RepoContainer extends React.Component {
     render () {
         const repo = this.props.repo,
             barStyle = {
-                "width": 200,
-                "height": 20,
-                "border": "1px solid gainsboro",
-                "padding": 0
+                width: 200,
+                height: 20,
+                border: "1px solid gainsboro",
+                padding: 0
             },
             parts = [],
             lang = [],
@@ -26,20 +26,22 @@ class RepoContainer extends React.Component {
                 <div
                     key={edge.node.name}
                     style={{
-                        "display": "inline-block",
-                        "backgroundColor": edge.node.color,
-                        "height": 20,
+                        display: "inline-block",
+                        backgroundColor: edge.node.color,
+                        height: 20,
                         "width": percent + "%",
-                        "margin": 0,
-                        "padding": 0
+                        margin: 0,
+                        padding: 0
                     }}
                 />
             );
             lang.push(
                 <strong
                     style={{
-                        "color": edge.node.color
-                    }}>{edge.node.name} </strong>
+                        color: edge.node.color
+                    }}>
+                    {edge.node.name}{" "}
+                </strong>
             );
         });
         return <Repo repo={repo} bar={bar} lang={lang} />;

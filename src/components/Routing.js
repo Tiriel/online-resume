@@ -11,19 +11,20 @@ class Routing extends React.Component {
                 <HomeButton />
                 <Switch>
                     <Route
-                        exact path="/"
+                        exact
+                        path="/"
                         render={(props) => {
-                            return <Home
-                                {...props}
-                                locale={this.props.locale} />;
+                            return (
+                                <Home {...props} locale={this.props.locale} />
+                            );
                         }}
                     />
                     <Route
                         path="/resume"
                         render={(props) => {
-                            return <Resume
-                                {...props}
-                                locale={this.props.locale} />;
+                            return (
+                                <Resume {...props} locale={this.props.locale} />
+                            );
                         }}
                     />
                 </Switch>

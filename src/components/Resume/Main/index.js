@@ -8,10 +8,10 @@ class Main extends React.Component {
     render () {
         return (
             <section className="main container">
-                <MainBanner locale={this.props.locale}/>
-                <MainExp locale={this.props.locale}/>
-                <MainEd locale={this.props.locale}/>
-                <MainOther locale={this.props.locale}/>
+                <MainBanner locale={this.props.locale} />
+                <MainExp locale={this.props.locale} />
+                <MainEd locale={this.props.locale} />
+                <MainOther locale={this.props.locale} />
             </section>
         );
     }

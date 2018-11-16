@@ -6,7 +6,6 @@ import render from "./render";
 import App from "../components/App";
 
 const ErrorPage = () => <h1>Oops, there was an error</h1>,
-
     reactApp = (req, res) => {
         let HTML,
             status = 200;
@@ -20,7 +19,7 @@ const ErrorPage = () => <h1>Oops, there was an error</h1>,
             HTML = render(
                 <Context setStatus={setStatus}>
                     <Router context={{}} location={req.url}>
-                        <App/>
+                        <App />
                     </Router>
                 </Context>
             );

@@ -6,7 +6,8 @@ class FrameworkSkills extends React.Component {
         return (
             <div className="react-wrapper">
                 <h3>
-                    <i className="fa fa-cog fa-fw" />Frameworks
+                    <i className="fa fa-cog fa-fw" />
+                    Frameworks
                 </h3>
                 <FramTable />
             </div>

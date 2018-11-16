@@ -19,7 +19,8 @@ class GitProfile extends React.Component {
                     <img
                         className="git-avatar"
                         src={github.avatarUrl}
-                        alt="avatar" />
+                        alt="avatar"
+                    />
                     <div className="git-infos">
                         <h1>{github.name}</h1>
                         <p>{github.bio}</p>

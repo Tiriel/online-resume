@@ -3,19 +3,22 @@ import MainMission from "../abstracts/MainMission";
 import text from "./text.json";
 
 class MainMano extends React.Component {
-    render () {
+    render() {
         return (
             <MainMission title={text[this.props.locale].MainMano.title}>
                 <dl>
                     <dt>
-                        <strong>
-                            {text[this.props.locale].MainMano.dt1}
-                        </strong>
+                        <strong>{text[this.props.locale].MainMano.dt1}</strong>
                     </dt>
                     <dd>
                         <p>
                             {/*  eslint-disable-next-line max-len */}
-                            {text[this.props.locale].MainMano.dd1.map((val) => <span>{val}<br /></span>)}
+                            {text[this.props.locale].MainMano.dd1.map(val => (
+                                <span>
+                                    {val}
+                                    <br />
+                                </span>
+                            )}
                         </p>
                         <em>{text[this.props.locale].MainMano.em}</em>
                         <ul>

@@ -1,7 +1,7 @@
 import React from "react";
 
 class StackFlair extends React.Component {
-    render () {
+    render() {
         const {
                 badge_counts,
                 reputation,
@@ -12,11 +12,11 @@ class StackFlair extends React.Component {
             medals = [];
         for (const medal in badge_counts) {
             const part = badge_counts[medal] !== 0 &&
-        <span className={medal}>
-            <i className="fa fa-circle fa-fw" aria-hidden="true" />{" "}
+                <span className={medal}>
+                    <i className="fa fa-circle fa-fw" aria-hidden="true" />{" "}
             {badge_counts[medal]}
-        </span>
-      ;
+                </span>
+            );
             medals.push(part);
         }
         return (
@@ -26,7 +26,10 @@ class StackFlair extends React.Component {
                     <span>
                         <i
                             className="fa fa-stack-overflow fa-fw"
-                            aria-hidden="true" />{" "}{display_name}</span>
+                            aria-hidden="true"
+                        />{" "}
+                        {display_name}
+                    </span>
                     <div>
                         <span>{reputation}</span>
                         <span>{medals}</span>

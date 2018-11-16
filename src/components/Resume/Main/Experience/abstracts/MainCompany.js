@@ -21,10 +21,10 @@ class MainCompany extends React.Component {
 }
 
 MainCompany.propTypes = {
-    "title": PropTypes.string.isRequired,
-    "loc": PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    loc: PropTypes.string.isRequired,
     "date": PropTypes.string.isRequired,
-    "desc": PropTypes.string.isRequired
+    desc: PropTypes.string.isRequired
 };
 
 export default MainCompany;

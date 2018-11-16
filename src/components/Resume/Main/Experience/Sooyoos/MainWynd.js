@@ -3,7 +3,7 @@ import MainMission from "../abstracts/MainMission";
 import text from "./text.json";
 
 class MainWynd extends React.Component {
-    render () {
+    render() {
         return (
             <MainMission title={text[this.props.locale].MainWynd.title}>
                 <dl>
@@ -13,7 +13,12 @@ class MainWynd extends React.Component {
                     <dd>
                         <p>
                             {/*  eslint-disable-next-line max-len */}
-                            {text[this.props.locale].MainWynd.dd1.map((val) => <span>{val}<br /></span>)}
+                            {text[this.props.locale].MainWynd.dd1.map(val => (
+                                <span>
+                                    {val}
+                                    <br />
+                                </span>
+                            )}
                         </p>
                         <em>{text[this.props.locale].MainWynd.em}</em>
                         <ul>

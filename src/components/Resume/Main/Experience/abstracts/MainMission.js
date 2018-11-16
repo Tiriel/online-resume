@@ -16,7 +16,7 @@ class MainMission extends React.Component {
 }
 
 MainMission.propTypes = {
-    "title": PropTypes.string.isRequired
+    title: PropTypes.string.isRequired
 };
 
 export default MainMission;

@@ -28,8 +28,9 @@ class App extends React.Component {
                 </Helmet>
                 <Header
                     locale={this.state.locale}
-                    changeLocale={this.changeLocale}/>
-                <Routing locale={this.state.locale}/>
+                    changeLocale={this.changeLocale}
+                />
+                <Routing locale={this.state.locale} />
             </div>
         );
     }

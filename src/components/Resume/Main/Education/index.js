@@ -13,7 +13,8 @@ class MainEd extends React.Component {
                     <dl>
                         <dt>
                             {/* eslint-disable-next-line max-len */}
-                            <strong>{text[this.props.locale].dt.st}</strong>{text[this.props.locale].dt.txt}
+                            <strong>{text[this.props.locale].dt.st}</strong>
+                            {text[this.props.locale].dt.txt}
                         </dt>
                         <dd>
                             <p>

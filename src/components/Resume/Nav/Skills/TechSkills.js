@@ -6,7 +6,8 @@ class TechSkills extends React.Component {
         return (
             <div className="react-wrapper">
                 <h3>
-                    <i className="fa fa-cog fa-fw" />{this.props.text.title}
+                    <i className="fa fa-cog fa-fw" />
+                    {this.props.text.title}
                 </h3>
                 <TechTable />
             </div>

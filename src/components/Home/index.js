@@ -25,15 +25,9 @@ class Home extends React.Component {
                         <h3>{text[this.props.locale].presentation.h3}</h3>
                     </article>
                     <article className="article">
-                        <p>
-                            {text[this.props.locale].article.p1}
-                        </p>
-                        <p>
-                            {text[this.props.locale].article.p2}
-                        </p>
-                        <p>
-                            {text[this.props.locale].article.p3}
-                        </p>
+                        <p>{text[this.props.locale].article.p1}</p>
+                        <p>{text[this.props.locale].article.p2}</p>
+                        <p>{text[this.props.locale].article.p3}</p>
                     </article>
                 </section>
                 <Widgets stack={this.state.stack} />

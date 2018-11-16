@@ -8,10 +8,11 @@ class Resume extends React.Component {
     render () {
         return (
             <section className="container">
-                <Nav locale={this.props.locale}/>
+                <Nav locale={this.props.locale} />
                 <Switch>
                     <Route
-                        exact path="/resume"
+                        exact
+                        path="/resume"
                         render={(props) => {
                             <Main {...props} locale={this.props.locale} />;
                         }}

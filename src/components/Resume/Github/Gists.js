@@ -14,7 +14,7 @@ class Gists extends React.Component {
         return (
             <section className="github" id="gists">
                 <h1>
-          Latest public Gists{" "}
+                    Latest public Gists{" "}
                     <a href="#">
                         <i className="fa fa-angle-up fa-fw" />
                     </a>

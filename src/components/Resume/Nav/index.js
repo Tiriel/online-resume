@@ -5,7 +5,7 @@ class Nav extends React.Component {
     render () {
         return (
             <nav className="profile">
-                <ProfileNav locale={this.props.locale}/>
+                <ProfileNav locale={this.props.locale} />
             </nav>
         );
     }

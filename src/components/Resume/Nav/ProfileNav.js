@@ -12,13 +12,14 @@ class ProfileNav extends React.Component {
             <ul className="profile-nav">
                 <ProfilePic />
                 <ProfileTitle />
-                <ProfileInfos locale={this.props.locale}/>
+                <ProfileInfos locale={this.props.locale} />
                 <ProfileSpacer />
                 <ProfileSpacer />
-                <ProfileSkills locale={this.props.locale}/>
+                <ProfileSkills locale={this.props.locale} />
                 <div className="help">
                     {/*  eslint-disable-next-line max-len */}
-                    <span className="helper">Underlined</span> : {text[this.props.locale].click}
+                    <span className="helper">Underlined</span> :{" "}
+                    {text[this.props.locale].click}
                 </div>
             </ul>
         );
