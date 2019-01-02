@@ -8,19 +8,20 @@
     },
     "MainWynd": {
       "title": "Mission : Wynd",
-      "dt1": "Equipes Search et Checkout:",
+      "dt1": "Développement de projets clients omnicanaux:",
       "dd1": [
-        "Affichage des traductions automatisées des avis clients.",
-        "Diverses évolutions et corrections."
+        "Workflow et connection aux API transporteurs pour solutions de livraison omnicanales.",
+        "Connection aux API de prestataires de paiement pour solutions de restaurations au sein de conférences."
       ],
       "em": "Stack technique :"
     },
     "MainMano": {
       "title": "Mission : ManoMano",
-      "dt1": "Développement de projets clients omnicanaux:",
+      "dt1": "Equipes Search et Checkout:",
       "dd1": [
-        "Workflow et connection aux API transporteurs pour solutions de livraison omnicanales.",
-        "Connection aux API de prestataires de paiement pour solutions de restaurations au sein de conférences."
+        "Affichage des traductions automatisées des avis clients.",
+        "Diverses évolutions et corrections sur funnel de checkout.",
+        "Développement de microservices dans le cadre d'une migration généralisée de la stack technique."
       ],
       "em": "Stack technique :"
     }
@@ -46,7 +47,8 @@
       "dt1": "Checkout workflow/Search teams:",
       "dd1": [
         "Product reviews API translation.",
-        "Various minor evolutions and bugfixes."
+        "Various minor evolutions and bugfixes on checkout funnel.",
+        "Microservices development as a part of a global migration of the technical stack."
       ],
       "em": "Technology stack :"
     }
