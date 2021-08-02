@@ -4,8 +4,8 @@
   "version": "0.0.650",
   "dependencies": {
     "axios": "0.21",
-    "dotenv": "4.00",
-    "prop-types": "15.5",
+    "dotenv": "4.0.0",
+    "prop-types": "^15.7.2",
     "react": "^15.6.2",
     "react-dom": "^15.6.2",
     "react-helmet": "5.2",
@@ -14,7 +14,7 @@
     "react-twitter-widgets": "1.5"
   },
   "devDependencies": {
-    "react-scripts": "^1.1.4"
+    "react-scripts": "^1.1.5"
   },
   "scripts": {
     "start": "react-scripts start",
