@@ -3,7 +3,7 @@
   "description": "My Resume in React",
   "version": "0.0.650",
   "dependencies": {
-    "axios": "0.16",
+    "axios": "0.21",
     "dotenv": "4.00",
     "prop-types": "15.5",
     "react": "^15.6.2",
